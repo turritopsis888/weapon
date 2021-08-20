@@ -1,0 +1,27 @@
+Реализуй смену оружия. Не нужно изобретать сложного, но я хочу что-то вроде
+
+const person1 = new Person(new Vector(100,100))
+const person2 = new Person(new Vector(0,0))
+
+person1.attack(person2)
+
+person1.changeWeapon(new AnotherWeapon())
+
+person1.attack(person2)
+ 
+
+
+
+ 
+Второе - реализуй ручную перезарядку
+
+const person1 = new Person(new Vector(100,100))
+const person2 = new Person(new Vector(0,0))
+
+person1.attack(person2) // срабатывает
+
+person1.attack(person2) // не срабатывает, нужна перезарядка
+
+person1.reload()
+
+person1.attack(person2) // срабатывает
